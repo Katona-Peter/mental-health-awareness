@@ -1,19 +1,29 @@
-/* ...existing code... */
+
 .navbar {
-  background-color: #80ed99 !important;
+  background-color: #80ed99;
+}
+.navbar-nav{
+    font-size: larger;
+}
+
+/* ...header code... */
+.header-img {
+  margin-top: 40px;
+}
+.jumbotron {
+  color: white;
+  padding: 2rem 1rem;
+  border-radius: 0.3rem;
+}
+/* ...end of header code... */
+.lead{
+  margin-left:40px;
+}
+.card-body{
+    text-align: center;
 }
 .card-img-top {
   height: 250px;
   object-fit: contain; /* Changed from cover to contain for full image visibility */
   background-color: #fff; /* Optional: adds a background if image doesn't fill the area */
-}
-.header-img {
-  margin-top: 40px;
-}
-/* ...existing code... */
-.navbar-nav{
-    font-size: larger;
-}
-.card-body{
-    text-align: center;
 }
