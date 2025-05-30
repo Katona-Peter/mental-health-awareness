@@ -2,8 +2,10 @@
 .navbar {
   background-color: #80ed99;
 }
+
 .navbar-nav{
     font-size: larger;
+    color:#c7f9cc
 }
 
 /* ...header code... */

@@ -12,30 +12,75 @@
       integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <p class="navbar-brand">EmpowerMind</p>
-
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      style="background-color: #38a3a5"
+    >
+      <div class="container-fluid">
+        <a
+          class="navbar-brand d-flex align-items-center"
+          href="#"
+          style="color: #c7f9cc"
+        >
+          <img
+            src="assets/images/logo.png"
+            alt="EmpowerMind logo"
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top me-2"
+            style="border: none"
+          />
+          EmpowerMind
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div
           class="collapse navbar-collapse justify-content-end"
           id="navbarNav"
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <!-- Home is active -->
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                style="color: #3b2f2f; font-weight: bold"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
+              <a class="nav-link" href="#symptoms" style="color: #3b2f2f"
+                >Symptoms</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#hints" style="color: #3b2f2f">Hints</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials" style="color: #3b2f2f">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" style="color: #3b2f2f"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -69,7 +114,7 @@
         </p>
       </div>
 
-      <div class="container mmy-5">
+      <div id="symptoms" class="container mmy-5">
         <div>
           <h2 class="text-center mb-4">Common Mental Health Issues</h2>
         </div>
@@ -145,7 +190,7 @@
         </div>
       </div>
 
-      <div class="container mmy-5">
+      <div id="hints" class="container mmy-5">
         <div>
           <h2 class="text-center mb-4">
             Your Mental Health Toolkit: Simple Practices for a Healthier Mind
@@ -222,10 +267,104 @@
           </div>
         </div>
       </div>
+
+      <!-- Mental Health Carousel Section Start -->
+      <section id="testimonials" class="py-5">
+        <div class="container">
+          <h2 class="text-start mb-4">Testimonials</h2>
+          <div
+            id="wellnessCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="5000"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/images/emily_johnson.png"
+                  class="d-block mx-auto"
+                  alt="Emily Johnson"
+                  style="height: 300px; object-fit: contain"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2"
+                >
+                  <h5>Emily Johnson</h5>
+                  <p>
+                    "I always felt like I had to hide my struggles at work, fearing judgment. 
+                    But when my company started prioritizing mental health awareness, I finally felt seen. 
+                    Open conversations, resources, and a supportive culture have made all the difference—not just for me, but for the entire team.""
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/jane_smith.png"
+                  class="d-block mx-auto"
+                  alt="Jane Smith"
+                  style="height: 300px; object-fit: contain"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2"
+                >
+                  <h5>Jane Smith</h5>
+                  <p>
+                    "When a close friend opened up about their depression, I didn’t know how to help. 
+                    But through mental health awareness, I learned how to listen, offer support, 
+                    and encourage them to seek professional help. Being there for someone is one of the most powerful things we can do."
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/john_doe.png"
+                  class="d-block mx-auto"
+                  alt="John Doe"
+                  style="height: 300px; object-fit: contain"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2"
+                >
+                  <h5>John Doe</h5>
+                  <p>
+                    "For years, I kept my struggles hidden, afraid of judgment. But when I finally spoke up, 
+                    I realized how many people understood and cared. Mental health awareness helped me find my voice—and my healing."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#wellnessCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#wellnessCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Wellness Carousel Section End -->
     </main>
 
     <!-- Footer Start -->
-    <footer style="background-color: #38a3a5; color: #c7f9cc;">
+    <footer style="background-color: #38a3a5; color: #c7f9cc">
       <div class="container py-4">
         <div class="row align-items-center">
           <div class="col-md-6 text-start">
@@ -233,16 +372,16 @@
           </div>
           <div class="col-md-6 text-end">
             <a href="#" class="ms-3" aria-label="Facebook">
-              <i class="fab fa-facebook fa-2x" style="color: #c7f9cc;"></i>
+              <i class="fab fa-facebook fa-2x" style="color: #c7f9cc"></i>
             </a>
             <a href="#" class="ms-3" aria-label="Twitter">
-              <i class="fab fa-twitter fa-2x" style="color: #c7f9cc;"></i>
+              <i class="fab fa-twitter fa-2x" style="color: #c7f9cc"></i>
             </a>
             <a href="#" class="ms-3" aria-label="LinkedIn">
-              <i class="fab fa-linkedin fa-2x" style="color: #c7f9cc;"></i>
+              <i class="fab fa-linkedin fa-2x" style="color: #c7f9cc"></i>
             </a>
             <a href="#" class="ms-3" aria-label="YouTube">
-              <i class="fab fa-youtube fa-2x" style="color: #c7f9cc;"></i>
+              <i class="fab fa-youtube fa-2x" style="color: #c7f9cc"></i>
             </a>
           </div>
         </div>
