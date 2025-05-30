@@ -1,0 +1,19 @@
+/* ...existing code... */
+.navbar {
+  background-color: #80ed99 !important;
+}
+.card-img-top {
+  height: 250px;
+  object-fit: contain; /* Changed from cover to contain for full image visibility */
+  background-color: #fff; /* Optional: adds a background if image doesn't fill the area */
+}
+.header-img {
+  margin-top: 40px;
+}
+/* ...existing code... */
+.navbar-nav{
+    font-size: larger;
+}
+.card-body{
+    text-align: center;
+}
