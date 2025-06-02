@@ -1,0 +1,32 @@
+body{
+  background-color: #c7f9cc;
+}
+
+/* Navbar background */
+.navbar,
+footer {
+  background-color: #38a3a5 !important;
+}
+
+/* Navbar link color */
+.navbar .nav-link,
+footer,
+footer a,
+footer i {
+  color: #c7f9cc !important;
+}
+
+.card {
+  background-color: #80ed99 !important;
+}
+
+/* Footer styles */
+footer {
+  color: #c7f9cc;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+footer .fa-2x {
+  margin-left: 1rem;
+}
