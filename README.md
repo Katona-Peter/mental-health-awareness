@@ -1,7 +1,7 @@
 
 # Project Title
 
-Delivering information about mental health awareness
+Let's talk about mental health
 
 ## Features
 The webpage aims to provide for user accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout.
@@ -19,7 +19,7 @@ The webpage starts with a Positive Message encouraging users about mental health
 A navigation bar facilitate the user to chose between different sections of webpage.
 The Information is organized in Cards, which components present mental health tips and common issues, providing a visually appealing way of content.
 A grid layout for external links to mental health resources styled with Bootstrap buttons make them stand out.
-A section of testimonials encourage the users.
+A section of testimonials conveys encouraging message to the users.
 
 
 ## Used By
@@ -27,9 +27,24 @@ A section of testimonials encourage the users.
 This project is used by the following stakeholders:
 
 - any person facing mental health issues
-- member  of community seeking information to provide mental health support
-- employers seeking advice to improve work environment of employees
-- any person just interested in increasing mental health awareness
+- members  of community seeking information to provide mental health support
+- employers seeking advice to improve wellness at workplace for employees
+- any person just interested in increasing the own mental health awareness
+
+The scope of webpage has been developped based on the User Experience of potential stakeholders.
+
+There are considered 6 User Stories based on concept of 3W: WHo - What - Why.
+
+The User Stories are on the base of development of Acceptance Criterias and Tasks for the Project.
+
+The Tasks are prioritized according to MoSCoW method in:
+- Must-have: Essential requirements that are critical for project success - 3 items
+- Should-have: Important but not vital features that enhance the project - 2 items
+- Could-have: Desirable additions that can be included if time and resources allow - 1 item
+- Won’t-have (this time): Features that are agreed to be excluded from the current scope - N/A
+
+
+
 ## Features
 
 - The webpage follows the responsible design concept, which ensures that it adapts to different screen sizes and devices, providing an optimal viewing experience whether on a desktop, tablet, or smartphone.
@@ -44,7 +59,7 @@ body
     main
     footer
 
-For elaboration of webpage there are used HTML and CSS element.
+For elaboration of webpage there are used HTML and CSS elements and Bootstrap toolkit.
 The development is carried out in VS Code IDE.  
 The repositories are stored in GitHub.
 
@@ -52,7 +67,7 @@ For development it was used AI of VS Code co-pilot in separate window and inline
 Whenever possible - like complex coding - the coding was taken over in manual coding mode.  
 With assistance of AI coding it was needed special care because sometimes there were affected also codes which have not been intended.
 
-## Color Reference
+The Readme.md file has been developped with [Readme.so](https://readme.so/editor)## Color Reference
 
 It has been selected a palette of calming colors suggested by:
 
@@ -101,6 +116,8 @@ Want to improve this project? Feel free to submit a pull request! Follow these s
  - [Font Awesome](https://fontawesome.com/)
  - [Canva](https://www.canva.com/)
  - [Microsoft Designer](https://designer.microsoft.com/)
+ - [Bootstrap](https://getbootstrap.com/)
+ - [Readme.so](https://readme.so/editor)
 
 
 ## Authors
