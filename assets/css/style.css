@@ -16,9 +16,9 @@ footer i {
   color: #c7f9cc !important;
 }
 
-.card {
-  background-color: #80ed99 !important;
-}
+/* #hints {
+  scroll-margin-top: 100px !important;
+} */
 
 /* Footer styles */
 footer {
